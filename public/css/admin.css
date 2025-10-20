@@ -1,0 +1,68 @@
+a{
+    text-decoration: none;
+    color: grey;
+}
+.a-menu i:hover{
+    color: #17a78b;
+}
+.a-seach i:hover{
+    color: #17a78b;
+}
+.navbar {
+    border-top: 1px solid gainsboro; /* Viền trên */
+    border-bottom: 1px solid gainsboro; /* Viền dưới */
+    min-height: 35px; /* Chiều cao tối thiểu */
+    display: flex; /* Sử dụng flexbox */
+    align-items: center; /* Căn giữa nội dung theo chiều dọc */
+    color: grey;
+}
+.navbar .col-md-2 {
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    height: 100%; /* Chiếm toàn bộ chiều cao của navbar */
+    border-right: 1px solid gainsboro; /* Viền bên phải */
+    font-size: 20px;
+}
+.navbar .a-menu{
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    display: flex;
+}
+.navbar .a-seach{
+    align-items: center;
+    justify-content: start;
+    height: 100%;
+    display: flex;
+}
+.navbar .col-md-7{
+    justify-content: flex-end; /* Đẩy các icon sang phải */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 100%; /* Chiếm toàn bộ chiều cao của navbar */
+    gap: 10px; /* Khoảng cách giữa các icon */
+    display: flex; /* Chuyển thành flex container */
+}
+.navbar a {
+    text-decoration: none;
+    color: grey;
+}
+a:hover{
+    color: #17a78b;
+}
+        
+.row {
+    /*min-height: 100vh;  Đảm bảo row chiếm toàn bộ chiều cao màn hình */
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-md-2.bg-body-tertiary {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    padding: 10px 0; 
+    min-height: 100%; 
+}
+.col-md-2.bg-body-tertiary .d-flex {
+    margin-top: 10px;
+}
